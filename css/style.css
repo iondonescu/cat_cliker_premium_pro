@@ -1,0 +1,52 @@
+body {
+  margin:10px;
+}
+#title {
+  width:100%;
+  text-align: center;
+}
+#main {
+  display:flex;
+}
+.cat{
+  width:40%;
+  display:inline-grid;
+}
+.catList {
+  float:left;
+  margin-left: 10px;
+  cursor: context-menu;
+}
+.imageContent {
+  width: 180px;
+  margin:0;
+  border-style: solid;
+  display:wrap;
+  flex-wrap: wrap;
+}
+
+.imageText {
+
+}
+.clickCounter {
+  color:red;
+  margin-left: 10px;
+}
+.catImage {
+  height:100px;
+  width: 160px;
+  align-content: center;
+
+}
+.catName {
+  margin-right:15px;
+}
+.admin-button{
+  margin-left:10px;
+}
+.admin{
+  margin-left:10px;
+}
+.hidden{
+  visibility:hidden;
+}
